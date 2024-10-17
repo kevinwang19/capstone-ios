@@ -1,0 +1,6 @@
+framework module Pods_StrideSense_StrideSenseUITests {
+  umbrella header "Pods-StrideSense-StrideSenseUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

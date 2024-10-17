@@ -1,0 +1,6 @@
+framework module Pods_StrideSense {
+  umbrella header "Pods-StrideSense-umbrella.h"
+
+  export *
+  module * { export * }
+}

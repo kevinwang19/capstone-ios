@@ -1,6 +1,0 @@
-framework module Pods_CapstoneApp_CapstoneAppUITests {
-  umbrella header "Pods-CapstoneApp-CapstoneAppUITests-umbrella.h"
-
-  export *
-  module * { export * }
-}

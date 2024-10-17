@@ -1,20 +1,20 @@
-workspace 'CapstoneApp.xcworkspace'
+workspace 'StrideSense.xcworkspace'
 platform :ios, '15.0'
 
 use_frameworks!
 
-target 'CapstoneApp' do
-  project 'CapstoneApp/CapstoneApp.xcodeproj'
+target 'StrideSense' do
+  project 'StrideSense/StrideSense.xcodeproj'
 
-  # Pods for CapstoneApp
+  # Pods for StrideSense
   pod 'Alamofire'
 
-  target 'CapstoneAppTests' do
+  target 'StrideSenseTests' do
     inherit! :search_paths
     # Pods for testing
   end
 
-  target 'CapstoneAppUITests' do
+  target 'StrideSenseUITests' do
     # Pods for testing
   end
 
