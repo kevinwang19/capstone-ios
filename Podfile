@@ -8,6 +8,7 @@ target 'StrideSense' do
 
   # Pods for StrideSense
   pod 'Alamofire'
+  pod 'SwiftLint'
 
   target 'StrideSenseTests' do
     inherit! :search_paths

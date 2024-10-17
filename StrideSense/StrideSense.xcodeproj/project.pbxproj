@@ -9,10 +9,13 @@
 /* Begin PBXBuildFile section */
 		0EA5DA9A1768DB3F6716DE25 /* Pods_StrideSense.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4056C25C8CD8B818E1702C1 /* Pods_StrideSense.framework */; };
 		3274E748F66E7C8C2E206A8C /* Pods_StrideSense_StrideSenseUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9C70422D94AF300FDB40CEB /* Pods_StrideSense_StrideSenseUITests.framework */; };
+		481E86612CC19A2400433E96 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 481E865F2CC19A2400433E96 /* Localizable.strings */; };
+		481E86632CC19C9400433E96 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481E86622CC19C8C00433E96 /* StringExtension.swift */; };
+		481E867C2CC1A08700433E96 /* .swiftlint in Resources */ = {isa = PBXBuildFile; fileRef = 481E867B2CC1A07F00433E96 /* .swiftlint */; };
 		483C823F2C78110A00967EA7 /* StrideSenseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483C823E2C78110A00967EA7 /* StrideSenseApp.swift */; };
-		483C82412C78110A00967EA7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483C82402C78110A00967EA7 /* ContentView.swift */; };
+		483C82412C78110A00967EA7 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483C82402C78110A00967EA7 /* HomeView.swift */; };
 		483C82432C78110C00967EA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 483C82422C78110C00967EA7 /* Assets.xcassets */; };
-		483C82462C78110C00967EA7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 483C82452C78110C00967EA7 /* Preview Assets.xcassets */; };
+		483C82462C78110C00967EA7 /* PreviewAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 483C82452C78110C00967EA7 /* PreviewAssets.xcassets */; };
 		483C82502C78110C00967EA7 /* StrideSenseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483C824F2C78110C00967EA7 /* StrideSenseTests.swift */; };
 		483C825A2C78110C00967EA7 /* StrideSenseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483C82592C78110C00967EA7 /* StrideSenseUITests.swift */; };
 		483C825C2C78110C00967EA7 /* StrideSenseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483C825B2C78110C00967EA7 /* StrideSenseUITestsLaunchTests.swift */; };
@@ -39,11 +42,14 @@
 /* Begin PBXFileReference section */
 		03D76A6D4C6C5124599924CD /* Pods-StrideSense.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StrideSense.release.xcconfig"; path = "../../Pods/Target Support Files/Pods-StrideSense/Pods-StrideSense.release.xcconfig"; sourceTree = "<group>"; };
 		3763B6710A6B0AFE1B8DBEFE /* Pods-StrideSense-StrideSenseUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StrideSense-StrideSenseUITests.release.xcconfig"; path = "../../Pods/Target Support Files/Pods-StrideSense-StrideSenseUITests/Pods-StrideSense-StrideSenseUITests.release.xcconfig"; sourceTree = "<group>"; };
+		481E86602CC19A2400433E96 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		481E86622CC19C8C00433E96 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		481E867B2CC1A07F00433E96 /* .swiftlint */ = {isa = PBXFileReference; lastKnownFileType = text; path = .swiftlint; sourceTree = "<group>"; };
 		483C823B2C78110A00967EA7 /* StrideSense.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StrideSense.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		483C823E2C78110A00967EA7 /* StrideSenseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrideSenseApp.swift; sourceTree = "<group>"; };
-		483C82402C78110A00967EA7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		483C82402C78110A00967EA7 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		483C82422C78110C00967EA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		483C82452C78110C00967EA7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		483C82452C78110C00967EA7 /* PreviewAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = PreviewAssets.xcassets; sourceTree = "<group>"; };
 		483C824B2C78110C00967EA7 /* StrideSenseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StrideSenseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		483C824F2C78110C00967EA7 /* StrideSenseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrideSenseTests.swift; sourceTree = "<group>"; };
 		483C82552C78110C00967EA7 /* StrideSenseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StrideSenseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -86,6 +92,224 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		481E86582CC0E12E00433E96 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				481E86642CC19DA500433E96 /* Icons */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		481E86592CC0E13800433E96 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				481E86762CC19F6600433E96 /* Components */,
+				481E86752CC19F6200433E96 /* Screens */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		481E865A2CC0E13F00433E96 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		481E865B2CC0E14500433E96 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		481E86642CC19DA500433E96 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				483C82422C78110C00967EA7 /* Assets.xcassets */,
+			);
+			path = Icons;
+			sourceTree = "<group>";
+		};
+		481E86652CC19DAB00433E96 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				481E865F2CC19A2400433E96 /* Localizable.strings */,
+				481E86622CC19C8C00433E96 /* StringExtension.swift */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		481E86662CC19DBD00433E96 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				481E866E2CC19F2300433E96 /* Common */,
+				481E86672CC19DD500433E96 /* Login */,
+				481E86682CC19DDC00433E96 /* Home */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		481E86672CC19DD500433E96 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				481E866C2CC19EFE00433E96 /* Network */,
+				481E865B2CC0E14500433E96 /* Models */,
+				481E865A2CC0E13F00433E96 /* ViewModels */,
+				481E86592CC0E13800433E96 /* Views */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		481E86682CC19DDC00433E96 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				481E866D2CC19F1100433E96 /* Network */,
+				481E86692CC19DF500433E96 /* Models */,
+				481E866A2CC19DFD00433E96 /* ViewModels */,
+				481E866B2CC19E0900433E96 /* Views */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		481E86692CC19DF500433E96 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		481E866A2CC19DFD00433E96 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		481E866B2CC19E0900433E96 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				481E86782CC19F7300433E96 /* Components */,
+				481E86772CC19F6F00433E96 /* Screens */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		481E866C2CC19EFE00433E96 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		481E866D2CC19F1100433E96 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		481E866E2CC19F2300433E96 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				481E86722CC19F3800433E96 /* Network */,
+				481E86712CC19F3400433E96 /* Models */,
+				481E86702CC19F2E00433E96 /* ViewModels */,
+				481E866F2CC19F2700433E96 /* Views */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		481E866F2CC19F2700433E96 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				481E86742CC19F5500433E96 /* Components */,
+				481E86732CC19F5000433E96 /* Screens */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		481E86702CC19F2E00433E96 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		481E86712CC19F3400433E96 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		481E86722CC19F3800433E96 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		481E86732CC19F5000433E96 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		481E86742CC19F5500433E96 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		481E86752CC19F6200433E96 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		481E86762CC19F6600433E96 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		481E86772CC19F6F00433E96 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				483C82402C78110A00967EA7 /* HomeView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		481E86782CC19F7300433E96 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		481E867A2CC1A00E00433E96 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				481E867B2CC1A07F00433E96 /* .swiftlint */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		481E867D2CC1A0FC00433E96 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				481E86652CC19DAB00433E96 /* Localization */,
+				483C823E2C78110A00967EA7 /* StrideSenseApp.swift */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
 		483C82322C78110A00967EA7 = {
 			isa = PBXGroup;
 			children = (
@@ -111,20 +335,21 @@
 		483C823D2C78110A00967EA7 /* StrideSense */ = {
 			isa = PBXGroup;
 			children = (
-				483C823E2C78110A00967EA7 /* StrideSenseApp.swift */,
-				483C82402C78110A00967EA7 /* ContentView.swift */,
-				483C82422C78110C00967EA7 /* Assets.xcassets */,
-				483C82442C78110C00967EA7 /* Preview Content */,
+				481E86662CC19DBD00433E96 /* Features */,
+				481E867A2CC1A00E00433E96 /* Config */,
+				481E86582CC0E12E00433E96 /* Resources */,
+				481E867D2CC1A0FC00433E96 /* SupportingFiles */,
+				483C82442C78110C00967EA7 /* PreviewContent */,
 			);
 			path = StrideSense;
 			sourceTree = "<group>";
 		};
-		483C82442C78110C00967EA7 /* Preview Content */ = {
+		483C82442C78110C00967EA7 /* PreviewContent */ = {
 			isa = PBXGroup;
 			children = (
-				483C82452C78110C00967EA7 /* Preview Assets.xcassets */,
+				483C82452C78110C00967EA7 /* PreviewAssets.xcassets */,
 			);
-			path = "Preview Content";
+			path = PreviewContent;
 			sourceTree = "<group>";
 		};
 		483C824E2C78110C00967EA7 /* StrideSenseTests */ = {
@@ -179,6 +404,7 @@
 				483C82382C78110A00967EA7 /* Frameworks */,
 				483C82392C78110A00967EA7 /* Resources */,
 				5CF282CB5C6CD6DAE1B03893 /* [CP] Embed Pods Frameworks */,
+				481E865C2CC198FE00433E96 /* SwiftLint */,
 			);
 			buildRules = (
 			);
@@ -276,7 +502,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				483C82462C78110C00967EA7 /* Preview Assets.xcassets in Resources */,
+				481E867C2CC1A08700433E96 /* .swiftlint in Resources */,
+				483C82462C78110C00967EA7 /* PreviewAssets.xcassets in Resources */,
+				481E86612CC19A2400433E96 /* Localizable.strings in Resources */,
 				483C82432C78110C00967EA7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -298,6 +526,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		481E865C2CC198FE00433E96 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\" --config \"$SRCROOT/SwiftUIBlueprint/Config/.swiftlint.yml\"\n";
+		};
 		5CF282CB5C6CD6DAE1B03893 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -405,8 +651,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				483C82412C78110A00967EA7 /* ContentView.swift in Sources */,
+				483C82412C78110A00967EA7 /* HomeView.swift in Sources */,
 				483C823F2C78110A00967EA7 /* StrideSenseApp.swift in Sources */,
+				481E86632CC19C9400433E96 /* StringExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,6 +688,17 @@
 			targetProxy = 483C82562C78110C00967EA7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		481E865F2CC19A2400433E96 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				481E86602CC19A2400433E96 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		483C825D2C78110C00967EA7 /* Debug */ = {
